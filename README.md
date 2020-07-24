@@ -11,6 +11,8 @@
 	* **Default path of your downloads**
 	* Optional path to move file from **Downloads** to another custom path
 	
+## Cron
+* Add a crontab to run it periodically every month.
 	
 ## Contribution
 * Feel free to fork or submit a PR.
