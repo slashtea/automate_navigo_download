@@ -104,5 +104,4 @@ if __name__ == "__main__":
     get_monthly_subscription_certificate(date, month_number_name, web,
                                          navigo_url, username, password)
     rename_pdf(file_path, month, date.year, first_name, last_name)
-    move_pdf(file_path, month, date.year, first_name, last_name,
-             new_file_path)
+    move_pdf(file_path, month, date.year, first_name, last_name, new_file_path)
