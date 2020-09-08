@@ -58,15 +58,15 @@ def get_monthly_subscription_certificate(date, month_dict, web, url, username,
 
 def rename_pdf(file_path, month, year, first_name, last_name):
     rename(file_path + "/attestation.pdf", file_path +
-           "attestation_navigo_{}_{}_{}_{}".format(month, year,
-                                                   first_name, last_name))
+           "attestation_navigo_{}_{}_{}_{}.pdf".format(month, year,
+                                                       first_name, last_name))
 
 
 def move_pdf(file_path, month, year, first_name, last_name, new_file_path=""):
     if new_file_path != "":
-        move(file_path + "attestation_navigo_{}_{}_{}_{}"
+        move(file_path + "attestation_navigo_{}_{}_{}_{}.pdf"
              .format(month, year, first_name, last_name),
-             new_file_path + "attestation_navigo_{}_{}_{}_{}"
+             new_file_path + "attestation_navigo_{}_{}_{}_{}.pdf"
              .format(month, year, first_name, last_name))
 
 
